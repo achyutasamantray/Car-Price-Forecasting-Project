@@ -134,8 +134,21 @@ def main():
                     except Exception as e:
                         st.error(f"Prediction failed: {e}")
 
-            except Exception as e:
+           except Exception as e:
                 st.error(f"Something went wrong while reading dataset: {e}")
+                
+    st.markdown("""  
+    ---  
+    <div style="text-align:center; font-size:16px; font-weight:bold;">  
+    👨‍💻 Developed By: <span style="color:#2E86C1;">Achyuta Samantaray</span>  
+    </div>  
+
+    <div style="text-align:center; font-size:14px;">  
+    📩 For any query, contact: <a href="mailto:ctc.achyuta@gmail.com">ctc.achyuta@gmail.com</a>  
+    </div>  
+    """, unsafe_allow_html=True)           
+                
 
 if __name__ == '__main__':
     main()
+
