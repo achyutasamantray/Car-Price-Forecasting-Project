@@ -133,10 +133,10 @@ def main():
                         st.success(f"Estimated selling price: {pred[0]:.2f} Lakhs")
                      except Exception as e:
                         st.error(f"Prediction failed: {e}")
-
             except Exception as e:
                 st.error(f"Something went wrong while reading dataset: {e}")
 
 if __name__ == '__main__':
     main()
+
 
